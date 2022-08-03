@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.player{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(86, 57, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper{
+    width: 370px;
+    padding: 30px 50px;
+    border-radius: 5px;
+    background-color:rgb(252, 252, 252);
+    box-shadow: 0 4px 4px rgba(10, 10, 11, 0.6);
+    box-shadow: 1px 0 5px rgba(22, 22, 20, 0.56), -0, -4px 3px rgba(10, 10, 11, 0.3);
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.track-art{
+    height: 210px;
+    width: 210px;
+    margin: 20px auto;
+    box-shadow: 0 4px 4px rgba(10, 10, 11, 0.6);
+    box-shadow: 0 3px 5px rgba(22, 22, 20, 0.56), -0, -4px 6px rgba(10, 10, 11, 0.3);
+}
+
+.track-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.track-artist{
+    font-size: 16px;
+    margin-top: 3px;
+    opacity: 0.65;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buttons i{
+    opacity: 0.9;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.45));
+}
+
+.slide-container{
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.progress{
+    width: 100%;
+    height: 5px;
+}
+
+.progress::-webkit-slider-thumb{
+    width: 10px;
+    height: 10px;
+    -webkit-appearance: none;
+    background: rgb(239, 238, 238);
+    cursor: pointer;
+}
+
+.current-time, 
+.total-duration{
+    position: absolute;
+}
+
+.current-time{
+    padding-top: 25px;
+    left: 0;
+}
+
+.total-duration{
+    padding-top: 5px;
+    right: 0;
+}
+
+.fa-shuffle{
+    margin-right: 5px;
+}
+
+.fa-repeat{
+    margin-left: 5px;
+}

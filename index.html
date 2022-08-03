@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b4107f9b7.js" crossorigin="anonymous"></script>
+    <title>MuSick</title>
+</head>
+<body>
+    <div class="player">
+        <div class="wrapper">
+            <div class="details">
+                <div class="track-name">Alag Aasmaan</div>
+                <div class="track-artist">Anuv Jain</div>
+                <img src="images/alag_aasmaan.jpg" class="track-art">
+            </div>
+
+            <div class="slide-container">
+                <div class="current-time">0:00</div>
+                <input type="range" min="1" max="100" value="0" class="progress">
+                <audio src="songs/Alag Aasmaan.mp3"></audio>
+                <div class="total-duration">3:32</div>
+            </div>
+
+            <div class="buttons">
+                <div class="random-track">
+                    <i class="fa-solid fa-shuffle fa-2x"></i>
+                </div>
+                <div class="prev-track">
+                    <i class="fa-solid fa-backward-step fa-2x"></i>
+                </div>
+                <div class="playpause-track">
+                    <i class="fa-solid fa-circle-play fa-3x"></i>
+                </div>
+                <div class="next-track">
+                    <i class="fa-solid fa-forward-step fa-2x"></i>
+                </div>
+                <div class="repeat-track">
+                    <i class="fa-solid fa-repeat fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
