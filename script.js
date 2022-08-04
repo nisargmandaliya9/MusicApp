@@ -91,11 +91,6 @@
             image: "tere_naina"
         },
         {
-            title: "Saiyaan",
-            artist: "Kailash Kher",
-            image: "saiyaan"
-        },
-        {
             title: "Main Jahaan Rahoon",
             artist: "Rahan Fateh Ali Khan",
             image: "main_jahaan_rahoon"
